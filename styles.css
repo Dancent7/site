@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;400&display=swap');
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f0ecec;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.foto {
+    width: 200px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+}
+
+.info{
+    margin-bottom: 20px;
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #292929;
+    margin: 0;
+}
+
+.card {
+    color: #000000;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.bg-purple {
+    background: rgba(166, 165, 231, 0.603);
+}
+
+.bg-orange {
+    background: rgba(233, 177, 154, 0.603);
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
