@@ -10,71 +10,75 @@
 </head>
 <body>
     <div class="container">
-    <div class="info">
-        <img class="foto" src="foto.jpg" alt="foto">
-    <div class="info-text">
-        <h1>FORSEL CRAFT</h1>   
-        <p>Я - <strong>Форсель Дмитрий</strong>, основатель крутой мастерской по изготовлению кожаных изделий <strong><em>FORSEL CRAFT</em></strong></p>
-        <p>Все мои изделия создаются исключительно вручную из первоклассной кожи и качественной фурнитуры. Будьте уверены, что каждое изделие заказнное у меня будет уникальным и качественным.</p>
-        <hr>
-    <div class="card bg-purple">
-        <h2>Основные преимущества заказа у меня</h2>
-        <ol>
-            <li>Вы получаете абсолютно уникальное изделие, которого не будет ни у кого</li>
-            <li>Изделия сшиты ручным швом, а это самый прочный шов, который, будьте уверены не разойдётся никогда</li>
-            <li>Вы будете информированы о всех этапах изготовления вплоть до конечной сборки изделия</li>
-            <li>Вы получаете гарантию на 3 года с момента приобретения изделия, если разойдётся шов или сломается фурнитура, я бесплатно вам всё починю</li>
-        </ol>
-    </div>
-    <div class="card bg-orange">
-        <h2>Список изделий которые я изготавливаю</h2>
-        <table>
-            <thead>
-                <tr>
-                <th>Название</th>
-                <th>Стоимость работы, руб</th>
-                <th>Срок изготовления</th>
+        <div class="info">
+            <img class="foto" src="foto.jpg" alt="foto">
+            <div class="info-text">
+                <h1>FORSEL CRAFT</h1>   
+                <p>Я - <strong>Форсель Дмитрий</strong>, основатель крутой мастерской по изготовлению кожаных изделий <strong><em>FORSEL CRAFT</em></strong></p>
+                <p>Все мои изделия создаются исключительно вручную из первоклассной кожи и качественной фурнитуры. Будьте уверены, что каждое изделие заказнное у меня будет уникальным и качественным.</p>
+                <hr>
+                
+                <p><strong>Социальные сети:</strong></p>
+                <a href="https://vk.com/forsel_craft" target="_blank">VK</a>
+                |
+                <a href="https://t.me/forsel_craft" target="_blank">Telegram</a>
+            </div> 
+        </div>
+        <div class="card bg-purple">
+            <h2>Основные преимущества заказа у меня</h2>
+            <ol>
+                <li>Вы получаете абсолютно уникальное изделие, которого не будет ни у кого</li>
+                <li>Изделия сшиты ручным швом, а это самый прочный шов, который, будьте уверены не разойдётся никогда</li>
+                <li>Вы будете информированы о всех этапах изготовления вплоть до конечной сборки изделия</li>
+                <li>Вы получаете гарантию на 3 года с момента приобретения изделия, если разойдётся шов или сломается фурнитура, я бесплатно вам всё починю</li>
+            </ol>
+        </div>
+        <div class="card bg-orange">
+            <h2>Список изделий которые я изготавливаю</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th>Название</th>
+                    <th>Стоимость работы, руб</th>
+                    <th>Срок изготовления</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>Кошелёк</td>
+                    <td>от 3000</td>
+                    <td>3-4 дня</td>
                 </tr>
-            </thead>
-            <tbody>
-                <td>Кошелёк</td>
-                <td>от 3000</td>
-                <td>3-4 дня</td>
-            </tr>
-            <tr>
-                <td>Ремень</td>
-                <td>от 4000</td>
-                <td>4-5 дней</td>
-            </tr>
-            <tr>
-                <td>Сумка</td>
-                <td>от 7000</td>
-                <td>2-3 недели</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>    
-        <p><strong>Социальные сети:</strong></p>
-        <a href="https://vk.com/forsel_craft" target="_blank">VK</a>
-        |
-        <a href="https://t.me/forsel_craft" target="_blank">Telegram</a>
+                <tr>
+                    <td>Ремень</td>
+                    <td>от 4000</td>
+                    <td>4-5 дней</td>
+                </tr>
+                <tr>
+                    <td>Сумка</td>
+                    <td>от 7000</td>
+                    <td>2-3 недели</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <form action="/" class="form">
+            <h2>Сделать заказ</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+        <div class="form-group"> 
+            <label for="message">Сообщение</label>
+            <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+            <button class="btn" type="submit">Сделать заказ</button>
     </div>
-    </div>
-        <h2>Сделать заказ</h2>
-    <div>
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите имя">
-    </div>
-<div>
-    <label for="email">Ваш email:</label>
-    <input type="email" id="email" placeholder="Введите email">
-</div>
-<div> 
-    <label for="message">Сообщение</label>
-    <br>
-    <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
-</div>
-<button type="submit">Сделать заказ</button>
-</div>
+</form>
 </body>
 </html>
